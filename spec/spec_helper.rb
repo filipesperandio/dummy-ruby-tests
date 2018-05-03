@@ -3,6 +3,9 @@ require 'spork'
 #uncomment the following line to use spork with the debugger
 #require 'spork/ext/ruby-debug'
 
+require 'simplecov'
+SimpleCov.start
+
 Spork.prefork do
   require 'rspec'
     
