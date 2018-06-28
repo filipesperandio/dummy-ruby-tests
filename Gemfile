@@ -10,8 +10,8 @@ group :development do
   gem 'rspec'
   gem 'fuubar' # rspec style
   
-  gem 'guard-rspec'
+  gem 'guard-rspec', '>= 3.0.3'
   gem 'spork', '~> 0.9'
-  gem 'guard-spork', '~> 1.4'
+  gem 'guard-spork', '~> 1.5', '>= 1.5.1'
   gem 'terminal-notifier-guard'
 end
