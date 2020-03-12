@@ -15,10 +15,8 @@ module Appname
       puts "covered"
     end
 
-
-    def foo
+    def foo_bar
       # re-declared
     end
   end
 end
-
