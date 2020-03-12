@@ -1,5 +1,9 @@
 module Appname
   class Dummy
+    def another_not_called_method
+    end
+
+
     def foo
       # implement something
     end
