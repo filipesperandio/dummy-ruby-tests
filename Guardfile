@@ -8,6 +8,7 @@ guard 'spork', :cucumber_env => { 'RAILS_ENV' => 'test' }, :rspec_env => { 'RAIL
   watch('Gemfile.lock')
   watch('spec/spec_helper.rb') { :rspec }
   watch('test/test_helper.rb') { :test_unit }
+  puts watch(%r{^spec/acceptance/steps/(.+)_steps\.rb$})    { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'spec/acceptance' } # a few more chars
   watch(%r{features/support/}) { :cucumber }
 end
 
