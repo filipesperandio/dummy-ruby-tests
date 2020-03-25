@@ -1,3 +1,4 @@
+.PHONY test
 test:
 	cc-test-reporter before-build
 	bundle exec rspec
