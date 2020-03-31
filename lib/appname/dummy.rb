@@ -25,5 +25,9 @@ module Appname
       puts "covered"
       puts "covered"
     end
+
+    def foo_bar
+      # re-declared
+    end
   end
 end
