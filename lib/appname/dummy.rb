@@ -1,4 +1,6 @@
 module Appname
+  VAR = 123
+
   class Dummy
     def foo
       return 1 if true
