@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rake'
 
 group :test do
-  gem "simplecov"
+  gem "simplecov", "0.17.1"
 end
 
 group :development do
