@@ -6,3 +6,4 @@ module Appname
     puts "it is not called by any spec"
   end
 end
+
